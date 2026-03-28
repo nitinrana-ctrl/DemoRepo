@@ -8,7 +8,6 @@ export default function Trigger() {
   return (
     <View style={styles.container}>
       <Text style={styles.alert}>🚨 Emergency Detected</Text>
-      <Text style={styles.sub}>Keyword: "Help me"</Text>
 
       <Pressable style={styles.btn} onPress={() => router.push("/confirm")}>
         <Text style={styles.btnText}>Send Alert</Text>
